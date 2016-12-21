@@ -1,0 +1,129 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	}
+
+td {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#000000;
+	width: auto;
+	margin: 0%;
+	padding: 0%;
+	}
+	
+a {
+	color: #000033;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+a:hover {
+	color: #666666;
+	}
+	
+/* ID Styles */
+
+#navigation a {
+	font:10px Arial, Helvetica, sans-serif;
+	color: #26354A;
+	text-decoration: none;
+	letter-spacing:.1em;
+	line-height:16px;
+	display:block;
+	padding: 0px 10px;
+	border-right:1px solid #FF6600;
+	}
+	
+#navigation a:hover {
+	color:#ffffff;
+	background: #FF6600;
+	}
+
+#padding {
+	padding:14px;
+	}
+	
+/* Calendar Styles */
+
+#calendar td {
+	border: 1px solid #26354A; 
+	}
+	
+#noborder td {
+	border: 0px;
+	}
+
+#calheader td {
+	font-weight:bold;
+	color: #ffffff;
+	}
+	
+/* Class Styles */
+
+.logo {
+	color: #FFBA00;
+	letter-spacing:.3em;
+	line-height:26px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	}
+	
+.tagline {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #D3DCE6;
+	line-height:16px;
+	background-color: #000000;
+	}
+	
+.bodyText {
+	line-height:22px;
+	color:#26354A;
+	letter-spacing:.1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+
+.detailText {
+	font:11px Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:#26354A;
+	letter-spacing:.1em;
+	}
+	
+.pageName {
+	font:24px Arial, Helvetica, sans-serif;
+	color: #FF6600;
+	letter-spacing:normal;
+	line-height:32px;
+	}
+	
+.subHeader {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color: #2D374D;
+	font-weight:bold;
+	line-height:20px;
+	letter-spacing:.1em;
+	}
+	
+.navText {
+	font:10px Arial, Helvetica, sans-serif;
+	color: #26354A;
+	letter-spacing:.1em;
+	line-height:16px;
+	}
+
+.calendarText {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #26354A;
+	letter-spacing:.1em;
+	}
+	
+	
+.sidebarText {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #FFBA00;
+	letter-spacing:.1em;
+	line-height:18px;
+	}
+	
