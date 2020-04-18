@@ -40,7 +40,7 @@ a,a:hover,a:focus {
 	outline: 0;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+h1,h2,h3,h4,h5,h6,h7,.h1,.h2,.h3,.h4,.h5,.h6,.h7{
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 }
@@ -208,6 +208,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .title h3 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #aaa;
+	margin: 0px 0 10px 0;
+}
+
+#profile .title h7 {
 	font-size: 18px;
 	font-weight: 300;
 	color: #aaa;
@@ -413,6 +420,11 @@ ul#navigation li .fa {
 	font-size: 26px;
 }
 
+.section .title h7 {
+	padding: 0;
+	margin: 0;
+	font-size: 26px;
+}
 
 .biothumb{position: relative;}
 .biothumb .overlay{
