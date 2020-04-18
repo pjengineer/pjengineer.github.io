@@ -561,6 +561,9 @@ ul.ul-dates-gray div.dates span {
 ul.ul-dates-gray div.dates span:last-child {
 	background-color: #979797 !important;
 }
+ul.ul-dates-gray div.dates span:last-child {
+	background-color: #979797 !important;
+}
 
 ul.ul-dates-gray div.dates span:first-child,
 ul.ul-dates div.dates span:first-child {
@@ -572,8 +575,8 @@ ul.ul-dates div.dates span:first-child {
 
 ul.ul-dates div.content,ul.ul-dates-gray div.content {
 	margin-left: 90px;
-	min-height: 70px;
-	padding-top: 10px;
+	min-height: 70px; /*earlier 70px*/
+	padding-top: 1px; /*earlier 10px*/
 }
 
 ul.ul-dates div.content h4,ul.ul-dates-gray div.content h4 {
@@ -585,9 +588,112 @@ ul.ul-dates div.content h4,ul.ul-dates-gray div.content h4 {
 ul.ul-dates div.content p,ul.ul-dates-gray div.content p {
 	font-size: 13px;
 }
+/* ****** date2 **********************************/
+ul.ul-dates,ul.ul-dates-gray {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
+ul.ul-dates li,ul.ul-dates-gray li {
+	margin-bottom: 15px; /*margin-left:  20px;
+	*/
+}
 
+ul.ul-dates div.dates2,ul.ul-dates-gray div.dates {
+	float: left;
+	width: 75px;
+}
 
+ul.ul-dates div.dates2 span,ul.ul-dates-gray div.dates2 span {
+	/*background-color: #03cc85;*/
+	padding: 6px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+ul.ul-dates-gray div.dates2 span {
+	background-color: #BBBBBB !important;
+}
+
+/*ul.ul-dates div.dates span:last-child {
+	background-color: #03bb7a;
+}*/
+
+ul.ul-dates-gray div.dates2 span:last-child {
+	background-color: #979797 !important;
+}
+ul.ul-dates-gray div.dates2 span:last-child {
+	background-color: #979797 !important;
+}
+
+ul.ul-dates-gray div.dates2 span:first-child,
+ul.ul-dates div.dates2 span:first-child {
+	-webkit-box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+	box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+	z-index: 3;
+	position: relative;
+    min-height: 30px; /*earlier 70px*/
+    padding-top: 1px; /*earlier 10px*/
+}
+/* ****** date3 **********************************/
+ul.ul-dates3,ul.ul-dates-gray {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.ul-dates3 li,ul.ul-dates-gray li {
+	margin-bottom: 15px; /*margin-left:  20px;
+	*/
+}
+
+ul.ul-dates div.dates3,ul.ul-dates-gray div.dates {
+	float: left;
+	width: 75px;
+}
+
+ul.ul-dates div.dates3 span,ul.ul-dates-gray div.dates3 span {
+	/*background-color: #03cc85;*/
+	padding: 6px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+ul.ul-dates-gray div.dates3 span {
+	background-color: #BBBBBB !important;
+}
+
+/*ul.ul-dates div.dates span:last-child {
+	background-color: #03bb7a;
+}*/
+
+ul.ul-dates-gray div.dates3 span:last-child {
+	background-color: #979797 !important;
+}
+ul.ul-dates-gray div.dates3 span:last-child {
+	background-color: #979797 !important;
+}
+
+ul.ul-dates-gray div.dates3 span:first-child,
+ul.ul-dates div.dates3 span:first-child {
+	-webkit-box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+	box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+	z-index: 3;
+	position: relative;
+    min-height: 30px; /*earlier 70px*/
+    padding-top: 1px; /*earlier 10px*/
+}
+
+ul.ul-dates3 div.content,ul.ul-dates3-gray div.content {
+	margin-left: 90px;
+	min-height: 70px; /*earlier 70px*/
+	padding-top: 1px; /*earlier 10px*/
+}
 /* ul-timeline
  **************************************************/
 ul.timeline {

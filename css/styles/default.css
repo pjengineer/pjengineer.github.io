@@ -10,6 +10,15 @@ ul.ul-card li .dy .year {
 ul.ul-dates div.dates span {
 	background-color: #03cc85;
 }
+
+ul.ul-dates div.dates2 span {
+	background-color: #21769f;
+}
+
+ul.ul-dates div.dates3 span {
+	background-color: #21769f;
+}
+
 ul.timeline li .date {
 	background: #03cc85;
 }
@@ -43,6 +52,15 @@ ul.ul-card li .dy .degree {
 ul.ul-dates div.dates span:last-child {
 	background-color: #03bb7a;
 }
+
+ul.ul-dates div.dates2 span:last-child {
+	background-color: #d2c956;
+}
+
+ul.ul-dates div.dates3 span:last-child {
+	background-color: #03bb7a;
+}
+
 ul.timeline li.open .circle {
 	background-color: #03bb7a;
 }
