@@ -127,7 +127,8 @@ h1,h2,h3,h4,h5,h6,h7,.h1,.h2,.h3,.h4,.h5,.h6,.h7{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding: 180px 10%;
+	padding: 0px;
+	/*padding: 180px -10%;*/
 }
 .home .pageheader .title{
 	border: none;
@@ -343,7 +344,8 @@ ul#navigation li .fa {
 .pageheader {
 	background: #f3f3f3;
 	position: relative;
-	padding: 60px 0 45px 0;
+	padding: 30px 0 20px 0;
+	/*padding: 60px 0 45px 0;*/
 }
 
 .pageheader:after {
@@ -363,7 +365,8 @@ ul#navigation li .fa {
 }
 
 .headercontent .title {
-	font-size: 50px;
+	/*font-size: 50px;*/
+	font-size: 30px;
 	margin-bottom: 25px;
 	border-bottom: 1px solid #ccc;
 	padding: 0 0 20px 0;
@@ -383,7 +386,8 @@ ul#navigation li .fa {
 }
 
 .page .section{
-	padding: 70px 0;
+	/*padding: 70px 0;*/
+	padding: 20px 0;
 	position: relative;
 }
 
@@ -587,7 +591,7 @@ ul.ul-dates div.dates span:first-child {
 
 ul.ul-dates div.content,ul.ul-dates-gray div.content {
 	margin-left: 90px;
-	min-height: 70px; /*earlier 70px*/
+	min-height: 60px; /*earlier 70px*/
 	padding-top: 1px; /*earlier 10px*/
 }
 
@@ -703,7 +707,7 @@ ul.ul-dates div.dates3 span:first-child {
 
 ul.ul-dates3 div.content,ul.ul-dates3-gray div.content {
 	margin-left: 90px;
-	min-height: 70px; /*earlier 70px*/
+	min-height: 30px; /*earlier 70px*/
 	padding-top: 1px; /*earlier 10px*/
 }
 /* ul-timeline
